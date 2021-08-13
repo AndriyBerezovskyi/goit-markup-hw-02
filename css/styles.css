@@ -138,6 +138,7 @@ body {
 }
 .footer-address {
   color: var(--primary-white-color);
+  font-style: normal;
 }
 .footer-contacts {
   color: var(--black-for-contacts-color);
