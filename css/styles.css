@@ -1,0 +1,133 @@
+/* основний чорний color: #212121; */
+/* додатковий чорний color: #757575; */
+/* білий color: #FFFFFF; */
+/* прозорий для контактів color: rgba(255, 255, 255, 0.6); */
+/* основний фон background: #e5e5e5; */
+/* додатковий фон background: #F5F4FA; */
+/* футер background: #2F303A; */
+/* акцент background: #2196F3 */
+:root {
+  --primary-black-color: #212121;
+  --secondary-black-color: #757575;
+  --primary-white-color: #ffffff;
+  --black-for-contacts-color: rgba(255, 255, 255, 0.6);
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --accent-color: #2196f3;
+}
+
+body {
+  background: var(--primary-background-color);
+  color: var(--primary-black-color);
+}
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: Raleway;
+}
+.header-logo {
+  color: var(--primary-black-color);
+}
+.footer-logo {
+  color: var(--primary-white-color);
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--primary-black-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Auth-nav */
+.auth-nav .contacts {
+  color: var(--secondary-black-color);
+}
+.auth-nav .contacts:hover {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background: var(--footer-background-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--primary-black-color);
+}
+
+/* Features */
+.features .title {
+  color: var(--primary-black-color);
+}
+.features {
+  color: var(--secondary-black-color);
+}
+
+/* Members */
+.member-name {
+  color: var(--primary-black-color);
+}
+.member-position {
+  color: var(--secondary-black-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-background-color);
+}
+.footer-address {
+  color: var(--primary-white-color);
+}
+.footer-contacts {
+  color: var(--black-for-contacts-color);
+}
+
+/* Button */
+.button {
+  color: var(--primary-black-color);
+  background-color: var(--primary-background-color);
+}
+.button.primary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+.button.secondary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Filters */
+.filter {
+  color: var(--primary-black-color);
+  background-color: var(--secondary-background-color);
+}
+.filter:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Projects */
+.projects {
+  color: var(--secondary-black-color);
+}
+.projects .project {
+  color: var(--primary-black-color);
+}
